@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "campus-energy-v2": {
+      "type": "stdio",
+      "command": "REPLACE/WITH/FULL/PATH/TO/venv/bin/python",
+      "args": ["REPLACE/WITH/FULL/PATH/TO/v2/code/6_mcp_server.py", "stdio"]
+    }
+  }
+}

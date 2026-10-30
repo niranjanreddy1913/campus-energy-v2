@@ -1,0 +1,18 @@
+/* Workshop additions on top of actoryx.css */
+.out-label { font: 600 .78rem var(--font); color: var(--muted); margin: 14px 0 4px; letter-spacing: .02em; }
+figure.shot { margin: 16px 0; }
+figure.shot img { display: block; width: 100%; border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.08); background: #fff; }
+figure.shot figcaption { font-size: .88rem; color: var(--muted); margin-top: 6px; }
+.intro-text { font-size: 1.04rem; }
+.have { background: var(--ok-soft); border: 1px solid var(--border); border-left: 4px solid var(--ok); border-radius: 12px; padding: 14px 18px; margin: 14px 0; }
+.have h4 { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+.have ul { margin: 0; padding-left: 1.1em; }
+.days { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; margin: 14px 0 28px; }
+.day-card { display: flex; flex-direction: column; padding: 18px; text-decoration: none; color: inherit; }
+.day-card:hover { border-color: var(--ax-orange); }
+.day-card .num { font: 800 .75rem var(--font-display); letter-spacing: .1em; color: var(--accent); }
+.day-card h3 { margin: 6px 0; font-size: 1.08rem; }
+.day-card p { color: var(--muted); font-size: .92rem; margin: 0 0 8px; }
+.day-card .prob { font-size: .9rem; margin: 0 0 10px; }
+.day-card .go { margin-top: auto; font: 700 .9rem var(--font); color: var(--accent); }
+.home-section { margin: 30px 0; }
